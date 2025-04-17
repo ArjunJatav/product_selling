@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "459587402560",
+    "project_id": "weedcolors-9c515",
+    "storage_bucket": "weedcolors-9c515.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459587402560:android:fd40f205d7f5d1497958a5",
+        "android_client_info": {
+          "package_name": "com.weedcolors1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459587402560-o5st4ckk9r0o8chbsrvmg3e1bqgbc63q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcolors1",
+            "certificate_hash": "33ee82b9d060675d3bbeeb77bf240d8e50f3da79"
+          }
+        },
+        {
+          "client_id": "459587402560-to0itde30c1tmbsdciv9hopbfcnlcri0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weedcolors1",
+            "certificate_hash": "91ec7704a45508e0924b236b34bb4f2d56e1d4f4"
+          }
+        },
+        {
+          "client_id": "459587402560-1stbhl2o32ehjvtdoti6bd7d8vpsqcsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF8Ce4o4nIoSat609NHvsEXa6HrtDKUR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459587402560-1stbhl2o32ehjvtdoti6bd7d8vpsqcsc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459587402560-canb19ojor5o8obnq6t1kamrnvbhuqu3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ebiz.weedcolors1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,565 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weedcolors1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:4:2-61
+12-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:4:19-59
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:6:5-75
+14-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:6:22-73
+15    <uses-permission
+15-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:7:5-80
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:7:22-78
+17        android:maxSdkVersion="29" />
+17-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-35
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-community_netinfo] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+18-->[:react-native-community_netinfo] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:react-native-community_netinfo] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-76
+19-->[:react-native-community_netinfo] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-73
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+20-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+21
+22    <queries>
+22-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+23        <intent>
+23-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+24            <action android:name="android.media.action.IMAGE_CAPTURE" />
+24-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+24-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+25        </intent>
+26    </queries>
+27    <!--
+28    This manifest file is used only by Gradle to configure debug-only capabilities
+29    for React Native Apps.
+30    -->
+31    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+31-->[com.facebook.react:react-android:0.73.11] /Users/user/.gradle/caches/transforms-3/7496ca98de9f7ef0aad631b5b279faf1/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:16:5-78
+31-->[com.facebook.react:react-android:0.73.11] /Users/user/.gradle/caches/transforms-3/7496ca98de9f7ef0aad631b5b279faf1/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:16:22-75
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+32-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:22-74
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+33-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+34
+35    <permission
+35-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+36        android:name="com.weedcolors1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.weedcolors1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+40-->[com.android.installreferrer:installreferrer:1.1.2] /Users/user/.gradle/caches/transforms-3/c3aa11ed07c0e86aecd2ad0a8fc01865/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+40-->[com.android.installreferrer:installreferrer:1.1.2] /Users/user/.gradle/caches/transforms-3/c3aa11ed07c0e86aecd2ad0a8fc01865/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+41    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+44    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+45    <!-- for Samsung -->
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+48    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+49    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+50    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+51    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+52    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+53    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+54    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+55    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+56    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+57    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+58    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+59    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/user/.gradle/caches/transforms-3/9bc5e67655e9d1f2a9b72ae185cd8317/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+62
+63    <application
+63-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:9:5-28:19
+64        android:name="com.weedcolors1.MainApplication"
+64-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:10:7-38
+65        android:allowBackup="false"
+65-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:14:7-34
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.13.1] /Users/user/.gradle/caches/transforms-3/d461a116bc95e8aad7e4fcfac5ab0ffb/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+67        android:debuggable="true"
+68        android:extractNativeLibs="true"
+69        android:icon="@mipmap/ic_launcher"
+69-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:12:7-41
+70        android:label="@string/app_name"
+70-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:11:7-39
+71        android:roundIcon="@mipmap/ic_launcher_round"
+71-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:13:7-52
+72        android:theme="@style/AppTheme"
+72-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:15:7-38
+73        android:usesCleartextTraffic="true" >
+73-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/debug/AndroidManifest.xml:6:9-44
+74        <activity
+74-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:16:7-27:18
+75            android:name="com.weedcolors1.MainActivity"
+75-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:17:9-37
+76            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+76-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:19:9-118
+77            android:exported="true"
+77-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:22:9-32
+78            android:label="@string/app_name"
+78-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:18:9-41
+79            android:launchMode="singleTask"
+79-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:20:9-40
+80            android:windowSoftInputMode="adjustResize" >
+80-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:21:9-51
+81            <intent-filter>
+81-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:23:9-26:25
+82                <action android:name="android.intent.action.MAIN" />
+82-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:24:13-65
+82-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:24:21-62
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:25:13-73
+84-->/Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/android/app/src/main/AndroidManifest.xml:25:23-70
+85            </intent-filter>
+86        </activity>
+87
+88        <service
+88-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:40
+89            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+89-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-103
+90            android:exported="false" />
+90-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+91        <service
+91-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+92            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+92-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+93            android:exported="false" >
+93-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+94            <intent-filter>
+94-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+95-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+95-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+96            </intent-filter>
+97        </service>
+98
+99        <receiver
+99-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+100            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+100-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+101            android:exported="true"
+101-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+102            android:permission="com.google.android.c2dm.permission.SEND" >
+102-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+103            <intent-filter>
+103-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+104                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+104-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+104-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+105            </intent-filter>
+106        </receiver>
+107
+108        <meta-data
+108-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+109            android:name="firebase_messaging_auto_init_enabled"
+109-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+110            android:value="true" />
+110-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+111        <meta-data
+111-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+112            android:name="com.google.firebase.messaging.default_notification_channel_id"
+112-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+113            android:value="" />
+113-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+114        <meta-data
+114-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+115            android:name="com.google.firebase.messaging.default_notification_color"
+115-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+116            android:resource="@color/white" />
+116-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+117        <meta-data
+117-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+118            android:name="app_data_collection_default_enabled"
+118-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+119            android:value="true" />
+119-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+120
+121        <service
+121-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+123            android:directBootAware="true"
+123-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+124            android:exported="false" >
+124-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+125            <meta-data
+125-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+126                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+126-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+129-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+132                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+132-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+135                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+135-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+138                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+138-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-installations:17.2.0] /Users/user/.gradle/caches/transforms-3/c6860894163002821ec93b7a859f54ee/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/user/.gradle/caches/transforms-3/d006273591086da1d977b4b696435398/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+141                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+141-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/user/.gradle/caches/transforms-3/d006273591086da1d977b4b696435398/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/user/.gradle/caches/transforms-3/d006273591086da1d977b4b696435398/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+144                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+144-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/user/.gradle/caches/transforms-3/e351c4ea95c841379e9dba72036ae432/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+147                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+147-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/user/.gradle/caches/transforms-3/e351c4ea95c841379e9dba72036ae432/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/user/.gradle/caches/transforms-3/e351c4ea95c841379e9dba72036ae432/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+149        </service>
+150
+151        <provider
+151-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+152            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+152-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+153            android:authorities="com.weedcolors1.reactnativefirebaseappinitprovider"
+153-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+154            android:exported="false"
+154-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+155            android:initOrder="99" />
+155-->[:react-native-firebase_app] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+156        <provider
+156-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+157            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+157-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+158            android:authorities="com.weedcolors1.provider"
+158-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+159            android:exported="false"
+159-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+160            android:grantUriPermissions="true" >
+160-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+161            <meta-data
+161-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+162                android:name="android.support.FILE_PROVIDER_PATHS"
+162-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+163                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+163-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+164        </provider>
+165
+166        <activity
+166-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+167            android:name="com.yalantis.ucrop.UCropActivity"
+167-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+168            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- Prompt Google Play services to install the backported photo picker module -->
+168-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+169        <service
+169-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-44:19
+170            android:name="com.google.android.gms.metadata.ModuleDependencies"
+170-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-78
+171            android:enabled="false"
+171-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-36
+172            android:exported="false" >
+172-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-37
+173            <intent-filter>
+173-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:29
+174                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+174-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-94
+174-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:25-91
+175            </intent-filter>
+176
+177            <meta-data
+177-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-43:36
+178                android:name="photopicker_activity:0:required"
+178-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:17-63
+179                android:value="" />
+179-->[:react-native-image-crop-picker] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-33
+180        </service>
+181
+182        <activity
+182-->[com.facebook.react:react-android:0.73.11] /Users/user/.gradle/caches/transforms-3/7496ca98de9f7ef0aad631b5b279faf1/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:19:9-21:40
+183            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+183-->[com.facebook.react:react-android:0.73.11] /Users/user/.gradle/caches/transforms-3/7496ca98de9f7ef0aad631b5b279faf1/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:20:13-77
+184            android:exported="false" />
+184-->[com.facebook.react:react-android:0.73.11] /Users/user/.gradle/caches/transforms-3/7496ca98de9f7ef0aad631b5b279faf1/transformed/jetified-react-android-0.73.11-debug/AndroidManifest.xml:21:13-37
+185
+186        <receiver
+186-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+187            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+187-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+188            android:exported="true"
+188-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+189            android:permission="com.google.android.c2dm.permission.SEND" >
+189-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+190            <intent-filter>
+190-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+191                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+191-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+191-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+192            </intent-filter>
+193
+194            <meta-data
+194-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+195                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+195-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+196                android:value="true" />
+196-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+197        </receiver>
+198        <!--
+199             FirebaseMessagingService performs security checks at runtime,
+200             but set to not exported to explicitly avoid allowing another app to call it.
+201        -->
+202        <service
+202-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+203            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+203-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+204            android:directBootAware="true"
+204-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+205            android:exported="false" >
+205-->[com.google.firebase:firebase-messaging:23.3.1] /Users/user/.gradle/caches/transforms-3/509ccfb0a37e3e83e55f5ab366a6bfb7/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+206            <intent-filter android:priority="-500" >
+206-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+207                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+207-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+207-->[:react-native-firebase_messaging] /Users/user/Desktop/React_Project/Weed_Ebiz/weed-app/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+208            </intent-filter>
+209        </service>
+210
+211        <provider
+211-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+212            android:name="com.google.firebase.provider.FirebaseInitProvider"
+212-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+213            android:authorities="com.weedcolors1.firebaseinitprovider"
+213-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+215            android:exported="false"
+215-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+216            android:initOrder="100" />
+216-->[com.google.firebase:firebase-common:20.4.2] /Users/user/.gradle/caches/transforms-3/7e41a71d7157c2e06eff6ffc1bd18aee/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+217
+218        <activity
+218-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+219            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+219-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+220            android:excludeFromRecents="true"
+220-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+221            android:exported="false"
+221-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+222-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+223        <!--
+224            Service handling Google Sign-In user revocation. For apps that do not integrate with
+225            Google Sign-In, this service will never be started.
+226        -->
+227        <service
+227-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+228            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+228-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+229            android:exported="true"
+229-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+230            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+230-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+231            android:visibleToInstantApps="true" />
+231-->[com.google.android.gms:play-services-auth:20.7.0] /Users/user/.gradle/caches/transforms-3/312b021293f144ea9d10c11a5136595e/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+232
+233        <meta-data
+233-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/user/.gradle/caches/transforms-3/cd730a128b1cb4d075023adab7411b68/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+234            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+234-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/user/.gradle/caches/transforms-3/cd730a128b1cb4d075023adab7411b68/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+235            android:value="GlideModule" />
+235-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/user/.gradle/caches/transforms-3/cd730a128b1cb4d075023adab7411b68/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+236
+237        <activity
+237-->[com.google.android.gms:play-services-base:18.0.1] /Users/user/.gradle/caches/transforms-3/c89a5c643b9a8abd9c26588d25246253/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+238-->[com.google.android.gms:play-services-base:18.0.1] /Users/user/.gradle/caches/transforms-3/c89a5c643b9a8abd9c26588d25246253/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+239            android:exported="false"
+239-->[com.google.android.gms:play-services-base:18.0.1] /Users/user/.gradle/caches/transforms-3/c89a5c643b9a8abd9c26588d25246253/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+240-->[com.google.android.gms:play-services-base:18.0.1] /Users/user/.gradle/caches/transforms-3/c89a5c643b9a8abd9c26588d25246253/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+241
+242        <meta-data
+242-->[com.google.android.gms:play-services-basement:18.2.0] /Users/user/.gradle/caches/transforms-3/b65bc0edb4c0a459a7ed49970d1be72b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+243            android:name="com.google.android.gms.version"
+243-->[com.google.android.gms:play-services-basement:18.2.0] /Users/user/.gradle/caches/transforms-3/b65bc0edb4c0a459a7ed49970d1be72b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+244            android:value="@integer/google_play_services_version" />
+244-->[com.google.android.gms:play-services-basement:18.2.0] /Users/user/.gradle/caches/transforms-3/b65bc0edb4c0a459a7ed49970d1be72b/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+245
+246        <provider
+246-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+247            android:name="androidx.startup.InitializationProvider"
+247-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+248            android:authorities="com.weedcolors1.androidx-startup"
+248-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+249            android:exported="false" >
+249-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+250            <meta-data
+250-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+251-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+252                android:value="androidx.startup" />
+252-->[androidx.emoji2:emoji2:1.2.0] /Users/user/.gradle/caches/transforms-3/32607f51157e6638c46c36c1bdee8f5b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+253            <meta-data
+253-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/user/.gradle/caches/transforms-3/b0e0736d553f55cffc0e1e0652a94191/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+254-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/user/.gradle/caches/transforms-3/b0e0736d553f55cffc0e1e0652a94191/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+255                android:value="androidx.startup" />
+255-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/user/.gradle/caches/transforms-3/b0e0736d553f55cffc0e1e0652a94191/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+256            <meta-data
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+257                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+258                android:value="androidx.startup" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+259        </provider>
+260
+261        <receiver
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+262            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+262-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+263            android:directBootAware="false"
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+264            android:enabled="true"
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+265            android:exported="true"
+265-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+266            android:permission="android.permission.DUMP" >
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+267            <intent-filter>
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+268                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+268-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+268-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+269            </intent-filter>
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+271                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+271-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+274                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+274-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+274-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+275            </intent-filter>
+276            <intent-filter>
+276-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+277                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+277-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+277-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/user/.gradle/caches/transforms-3/59f379e630d33864cbd9033a6e0193b6/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+278            </intent-filter>
+279        </receiver>
+280
+281        <service
+281-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+282            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+282-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+283            android:exported="false" >
+283-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+284            <meta-data
+284-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+285                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+285-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+286                android:value="cct" />
+286-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/user/.gradle/caches/transforms-3/6b8f142e5c17799aaa9da4a2ab10c599/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+287        </service>
+288        <service
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+289            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+289-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+290            android:exported="false"
+290-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+291            android:permission="android.permission.BIND_JOB_SERVICE" >
+291-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+292        </service>
+293
+294        <receiver
+294-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+295            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+295-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+296            android:exported="false" />
+296-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/user/.gradle/caches/transforms-3/ac8b235757c4a5a2eaa12b824c9acc43/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+297
+298        <meta-data
+298-->[com.facebook.soloader:soloader:0.10.5] /Users/user/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+299            android:name="com.facebook.soloader.enabled"
+299-->[com.facebook.soloader:soloader:0.10.5] /Users/user/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+300            android:value="false" />
+300-->[com.facebook.soloader:soloader:0.10.5] /Users/user/.gradle/caches/transforms-3/d226b9defa590c07510afd3d58e4276f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+301    </application>
+302
+303</manifest>

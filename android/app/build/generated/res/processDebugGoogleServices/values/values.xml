@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">459587402560-1stbhl2o32ehjvtdoti6bd7d8vpsqcsc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">459587402560</string>
+    <string name="google_api_key" translatable="false">AIzaSyBF8Ce4o4nIoSat609NHvsEXa6HrtDKUR0</string>
+    <string name="google_app_id" translatable="false">1:459587402560:android:fd40f205d7f5d1497958a5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBF8Ce4o4nIoSat609NHvsEXa6HrtDKUR0</string>
+    <string name="google_storage_bucket" translatable="false">weedcolors-9c515.firebasestorage.app</string>
+    <string name="project_id" translatable="false">weedcolors-9c515</string>
+</resources>

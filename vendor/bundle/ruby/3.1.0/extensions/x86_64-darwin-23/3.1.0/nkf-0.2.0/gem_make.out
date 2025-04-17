@@ -1,0 +1,16 @@
+current directory: /Users/ebizneeds/Desktop/Weed_Cli/weedcolors1/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+/Users/ebizneeds/.rvm/rubies/ruby-3.1.4/bin/ruby -I /Users/ebizneeds/.rvm/rubies/ruby-3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/ebizneeds/Desktop/Weed_Cli/weedcolors1/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250221-60604-446ewb sitelibdir\=./.gem.20250221-60604-446ewb clean
+
+current directory: /Users/ebizneeds/Desktop/Weed_Cli/weedcolors1/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250221-60604-446ewb sitelibdir\=./.gem.20250221-60604-446ewb
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/ebizneeds/Desktop/Weed_Cli/weedcolors1/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250221-60604-446ewb sitelibdir\=./.gem.20250221-60604-446ewb install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20250221-60604-446ewb

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CLIENT_ID</key>
+  <string>459587402560-khf0dqt2g21q9m6e3cc7lugqi0v0oj6c.apps.googleusercontent.com</string>
+  <key>REVERSED_CLIENT_ID</key>
+  <string>com.googleusercontent.apps.459587402560-khf0dqt2g21q9m6e3cc7lugqi0v0oj6c</string>
+  <key>ANDROID_CLIENT_ID</key>
+  <string>459587402560-o5st4ckk9r0o8chbsrvmg3e1bqgbc63q.apps.googleusercontent.com</string>
+  <key>API_KEY</key>
+  <string>AIzaSyDW2K7j5GvA3ZjCPhn4DaZLWH2OujPR1h8</string>
+  <key>GCM_SENDER_ID</key>
+  <string>459587402560</string>
+  <key>PLIST_VERSION</key>
+  <string>1</string>
+  <key>BUNDLE_ID</key>
+  <string>io.cordova.weedcolors3</string>
+  <key>PROJECT_ID</key>
+  <string>weedcolors-9c515</string>
+  <key>STORAGE_BUCKET</key>
+  <string>weedcolors-9c515.firebasestorage.app</string>
+  <key>IS_ADS_ENABLED</key>
+  <false></false>
+  <key>IS_ANALYTICS_ENABLED</key>
+  <false></false>
+  <key>IS_APPINVITE_ENABLED</key>
+  <true></true>
+  <key>IS_GCM_ENABLED</key>
+  <true></true>
+  <key>IS_SIGNIN_ENABLED</key>
+  <true></true>
+  <key>GOOGLE_APP_ID</key>
+  <string>1:459587402560:ios:70926053fa4fd2a27958a5</string>
+</dict>
+</plist>

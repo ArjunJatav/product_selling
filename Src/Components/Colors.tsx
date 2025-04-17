@@ -1,0 +1,17 @@
+export const whiteButtonColor ="#EEFFE8";
+export const whiteButtonTextColor ="#00A751";
+export const guestTextColor = "#D0FBC8";
+export const placeholderColor = "#8298AB";
+export const textColor = "#3B5266";
+export const blueColor = "#1259EA";
+export const facebookBlueColor = "#4267B2";
+export const purpleColor = "#7B58A2";
+export const darkGray = "#1f1f1f";
+export const seaBlueColor = "#E1E9F0";
+export const whiteLessOpacityColor = "#FFFFFFBF";
+export const greenLessOpacityColor = "#00A75180";
+export const grayShade = "#c2c2c2";
+export const whiteLessOpacityColor2 = "#FAFAFA";
+export const redColor = "#EB1E23";
+export const orangeColor = "#F77F22";
+export const yellowColor = "#FFBF00";
